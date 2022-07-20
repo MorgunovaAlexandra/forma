@@ -76,7 +76,24 @@ body{
     background-color: white;
   }
 
-  
+  @media(max-width:778px){
+    .wrapper{
+     top:0;
+     transform: none;
+     padding: 0;
+    }
+    .sidebar{
+      width: 90px;
+    }
+    .sidebar__title{
+      display: none;
+    }
+  }
+  @media(max-width:500px){
+    .sidebar{
+      display: none;
+    }
+  }
   /*main*/
   .main{
     position: relative;
@@ -90,30 +107,19 @@ body{
     position: relative;
     z-index: 3;
     flex-wrap: wrap;
+    
   }
-  @media(max-width:771px){
-    .main{
-    height:680px;
+  @media(max-width:500px){
+    form{
+      display: flex;
+      flex-direction: column;
+      z-index: 3;
+      align-items: center;
     }
-    .wrapper{
-      top:0;
-      transform: none;
+    .main__header{
+      text-align: center;
     }
-    .sidebar{
-     
-      height: 680px;
-      background-color: #5A61ED;
-      display: block;
-      position: relative;
   }
-  .sidebar__title{
-    top:500.5px;
-  }
-  .sidebar__title{
-    display: none;
-  }
-  }
-  
   .main__header{
     font-size: 22px;
     line-height: 25.78px;
@@ -131,7 +137,23 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  
+  @media(max-width:500px){
+    form{
+      display: flex;
+      flex-direction: column;
+      z-index: 3;
+      align-items: center;
+    }
+    .main__header{
+      text-align: center;
+    }
+    .main__text{
+      text-align: center;
+    }
+    .main{
+      width: 480px;
+    }
+  }
   .text-field__input{
     display: block;
     width: 234.5px;
@@ -191,6 +213,11 @@ input::placeholder {
   display: block;
   margin-top: 16.3px;
 }
+@media(max-width:500px){
+  .text-field__input{
+   width: 400px;
+  }
+}
 
 /*-----password---*/
 .pass{
@@ -226,12 +253,10 @@ margin-left: 15.3px;
     opacity: 1;
     background: rgba(255,245,215,0);
 }
-
 .emailInput{
   position: relative;
   
 }
-
 .img__done{
   position: absolute ;
   left: 225px;
@@ -305,17 +330,6 @@ button{
   stroke-dashoffset: 1000;
   animation: ani 5s ease;
 }
-@media(max-width:771px) {
-  .chel{
-    display: none;
-  }
-  button{
-    margin-left: 100px;
-  }
-  .left__side {
-    margin-left: 0;
-  }
-}
 @keyframes ani{
   0%{
     stroke-dashoffset: 0;
@@ -327,28 +341,4 @@ button{
 }
 .q{
   display: flex;
-}
-@media(max-width:340px){
-  .left__side {
-    margin-left: 20px;
-  }
-  .ride__side{
-    margin-left: 20px;
-  }
-  .main__header{
-    text-align: center;
-  }
-  .main__text{
-    text-align: center;
-  }
-  .logger {
-    margin-left: 20px;
-  }
-  button{
-    margin-left: 30px;
-    margin-right: 20px;
-  }
-  .wrapper{
-    padding: 0;
-  }
 }

@@ -338,17 +338,5 @@ button{
   .main__header{
     text-align: center;
   }
-  .main__text{
-    text-align: center;
-  }
-  .logger {
-    margin-left: 20px;
-  }
-  button{
-    margin-left: 30px;
-    margin-right: 20px;
-  }
-  .wrapper{
-    padding: 0;
-  }
+  ma
 }
