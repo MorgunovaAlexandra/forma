@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+}
+.wrapper{
+  display: flex;
+  background-color: #F2F2F2;
+  justify-content: center;
+}
+.sidebar{
+    width: 137.2px;
+    height: 480px;
+    background-color: #5A61ED;
+    display: block;
+    position: relative;
+}
+.sidebar__title{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  top:296.02px;
+  left: 20.5px;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 63.41px;
+  color: 
+  #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  white-space:nowrap;
+  }
+  .main{
+    width: 527.8px;
+    height:480px;
+    background-color: white;
+  }
+
+
+  /*main*/
+  .main{
+    
+    padding-top: 38.52px;
+    padding-left: 20.8px;
+  }
+  .form{
+    display: flex;
+   
+  }
+  .main__header{
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: -0.46px;
+    color: #111111;
+  }
+  .main__text{
+    line-height: 16.41px;
+    color: #111111;
+    margin-bottom: 20px;
+  }
+  .text-field__input{
+    display: block;
+    width: 234.5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.7px solid #F2F2F2;
+    height: 27.2px;
+    padding-top: 4.9px;
+    padding-bottom: 6.3px;
+    color: #111111;
+  }
+input::placeholder {
+  color: #111111 !important;
+}
+.text-field__label{
+  color:#7C7C7C;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+.nation{
+  display: block;
+  margin-top: 16.8px;
+}
+.field__day{
+  width: 56px;
+  padding-left: 0;
+  height: 26.9px;
+  border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.7px solid #F2F2F2;
+}
+.field__mounth{
+  margin-left: 5.8px;
+  width: 91px;
+  height: 26.9px;
+  border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.7px solid #F2F2F2;
+}
+.year{
+  margin-left: 5.8px;
+  width: 67.67px;
+  height: 26.9px;
+  border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.7px solid #F2F2F2;
+}
+.birdth{
+  display: block;
+  margin-top: 16.3px;
+}
+
+
+/*-----password---*/
+.pass{
+  display: block;
+  margin-top: 17.4px;
+}
+
+/*-------------left-side------------*/
+.left__side{
+margin-left: 15.3px;
+}
+
+.label-email{
+  display: block;
+  margin-top: 16.37px;
+}
+.input__email{
+  height: 26.92px;
+  width: 234.5px;
+  border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.7px solid #F2F2F2;
+    position: absolute;
+    background-color: white;
+}
+.emailInput{
+  position: relative;
+}
+.img__done{
+  position: absolute ;
+  left: 225px;
+  opacity: 0;
+}
+.input__email:invalid:required {
+  
+}
+.input__email:valid{
+  
+  
+}
+.radioInput{
+  display: block;
+  position: relative;
+  top:39px
+}

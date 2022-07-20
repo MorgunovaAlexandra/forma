@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+       <Sidebar class="sidebar">
+        <div class="sidebar__title">Sign up</div>
+       </Sidebar>
+        <div class="main">
+            <div class="main__header">New user?</div>
+            <div class="main__text">Use the form below to create your account.</div>
+            <form>
+
+                <label class="text-field__label" for="name">First Name</label>
+                <input class="text-field__input" type="text" placeholder="Alice" id="name">
+                <label class="text-field__label nation" for="nationality">Nationality</label>
+                <select  class="text-field__input"name="user_profile_color_1" id="nationality">
+                    <option value="1">American</option>
+                    <option value="2">Belarus</option>
+                    <option value="3">Russia</option>
+                    <option value="4">German</option>
+                  </select>
+                  <div class="fallbackDatePicker">
+                    <span>
+                      <label  class="text-field__label birdth" for="day">Date of Birth</label>
+                      <select class="field__day" id="day" name="day">
+                      </select>
+                    </span>
+                    <span>
+                     
+                      <select  class="field__mounth" id="day" name="month">
+                        <option selected>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                      </select>
+                    </span>
+                    <span>
+                      <select  class="year" id="day" name="year">
+                      </select>
+                    </span>
+
+                  </div>
+                  <label class="text-field__label pass" for="password">Password</label>
+                  <input class="text-field__input" type="password" id="password">
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

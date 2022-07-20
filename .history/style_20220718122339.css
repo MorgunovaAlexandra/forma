@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.sidebar{
+    width: 137.2px;
+    height: 480px;
+    background-color: #5A61ED;
+    display: block;
+    position: relative;
+}
+.sidebar__title{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  top:296.02px;
+  left: 20.5px;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 63.41px;
+  color: 
+  #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  white-space:nowrap;
+  }
+  .main{
+    width: 527.8px;
+    height:480px;
+    background-color: bisque;
+  }
+
+
+  /*main*/
+  .main{
+    padding-top: 38.52px;
+    padding-left: 20.8px;
+  }
+  .main__header{
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: -0.46px;
+    color: #111111;
+  }
+  .main__text{
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #111111;
+    margin-bottom: 20px;
+  }
+  .text-field__input{
+    display: block;
+    width: 234.5px;
+    border-top: ;
+  }
